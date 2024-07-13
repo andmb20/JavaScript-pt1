@@ -5,7 +5,7 @@
     NÚMEROS = NUMBERS
     BOLEANO = BOOLEAN
     OBJETOS = OBJECTS
-
+    NULO / INDEFINIDO = NULL / UNDEFINED
 */
 
 //  TEXTOS = STRINGS
@@ -46,9 +46,22 @@ const andre = {
 
 console.log(andre)
 
+/*
+    NULO / INDEFINIDO = NULL / UNDEFINED
+    null = deixar vago de propósito, muitas das vezes para o cliente definir, ex.: nome do conjuge "nem todo mundo é casado"
+    undefined = errei no código
+*/
 
+const user = {
+    name: "Wagner José",
+    age: null
+}
 
+console.log(user) // console de pesquisa pelo objeto elemento "user"
 
+console.log(user.age) // console de pesquisa "user" acessando dentro do objeto "age" de literal nulo ou vazio
+
+console.log(user.country) // console de pesquisa "user" tentando acesso em "country" porem não existe => undefined
 
 
 
