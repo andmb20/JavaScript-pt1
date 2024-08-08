@@ -4,7 +4,7 @@
 
 */
 
-// Como de prache um famoso 'Hello World' para começarmos com o pé direito.
+// Como de praxe um famoso 'Hello World' para começarmos com o pé direito.
 console.log("Hello World")
 
 console.log("Bora pra cima desbravar JS")
