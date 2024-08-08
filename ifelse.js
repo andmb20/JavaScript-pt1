@@ -1,6 +1,6 @@
 /*
     IF / ELSE
-    IF (se) -> Se ISSO for Verddadeiro, faça ISSO!
+    IF (se) -> Se ISSO for Verdadeiro, faça ISSO!
     Else (se NÃO) -> Se NÃO, faça ISSO.
 
     Operadores de comparação
